@@ -3,7 +3,7 @@ This is educational website for assignment purposes
 
 ## Features
 - Home page with navigation
-- About page
+- About page with search
 - Search functionality for courses
 - User data entry form
 - MySQL database integration
