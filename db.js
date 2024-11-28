@@ -1,16 +1,13 @@
 const mysql = require('mysql2');
-const dotenv = require('dotenv');
+require('dotenv').config();
 
-// Load environment variables
-dotenv.config();
-
-// Create a connection pool
 const pool = mysql.createPool({
-  host: process.env.DB_HOST || 'localhost',
-  user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASSWORD || 'Dbxenoverse!1',
-  database: process.env.DB_NAME || 'test',
+    host: process.env.DB_HOST || 'localhost',
+    user: process.env.DB_USER || 'root',
+    password: process.env.DB_PASSWORD || 'Dbxenoverse!1',
+    database: process.env.DB_NAME || 'portfolio_db',
+    port: process.env.DB_PORT || 3306,
 });
 
-// Export the connection pool
 module.exports = pool.promise();
+
