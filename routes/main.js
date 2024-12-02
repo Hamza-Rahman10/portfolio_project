@@ -12,4 +12,4 @@ router.get('/about', (req, res) => {
 
 module.exports = router;
 
-//this file should be able to toggle through different pages
+//toggle through different pages

@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif; /* Simple font for readability */
+    margin: 0;
+    padding: 0;
+    background-color: #bbfffd; /* Light gray background */
+}
+
+/* Style the header  */
+header {
+    background-color: #398090; 
+    color: rgb(171, 249, 247); 
+    padding: 10px 20px; /* Add some spacing inside the header */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space out logo and navigation */
+    align-items: center; /* Align items vertically */
+}
+
+/* Logo text */
+header h1 {
+    font-size: 24px; /* Slightly larger text for the logo */
+    margin: 0; /* Remove extra space around the text */
+}
+
+/* Style the navigation menu */
+header nav ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display items in a row */
+}
+
+/* Style each navigation link */
+header nav ul li {
+    margin-right: 15px; /* Add space between links */
+}
+
+header nav ul li a {
+    color: white; 
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Standard font size */
+}
+
+/* Hero section  */
+.hero {
+    text-align: center; /* Center-align text */
+    background-color: #e8f5e9; 
+    padding: 50px 20px; /* Add spacing for breathing room */
+}
+
+.hero h2 {
+    font-size: 28px; /* Larger font for main text */
+    color: #398090; 
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.hero p {
+    font-size: 18px; /* Slightly smaller text for description */
+    color: #555; /* Medium gray text */
+    margin-bottom: 20px; /* Add space below paragraph */
+}
+
+.hero .btn {
+    display: inline-block; /* Make it look like a button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add some padding inside the button */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Standard font size */
+}
+
+/* Features section */
+.features {
+    padding: 20px;
+    background-color: white; /* White background for contrast */
+    text-align: center; /* Center-align text */
+}
+
+.features h3 {
+    font-size: 24px; /* Section title size */
+    color: #333; 
+    margin-bottom: 20px; /* Add space below title */
+}
+
+.feature {
+    background-color: #f4f8ef; 
+    margin: 15px auto; /* Center-align and space out each feature */
+    padding: 15px;
+    border: 1px solid #f4f8ef; 
+    border-radius: 5px; /* Slightly rounded corners */
+    max-width: 500px; 
+}
+
+/* Footer at the bottom of the page */
+footer {
+    background-color: #398090; 
+    color: white; /* White text */
+    text-align: center; /* Center-align text */
+    padding: 10px 0; 
+    font-size: 14px; 
+}
+
+footer a {
+    color: #4CAF50; 
+    text-decoration: none; 
+    margin: 0 5px; 
+    text-align: center;
+}
