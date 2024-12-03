@@ -16,7 +16,7 @@ This is educational website for assignment purposes
 
 ## Setup
 1. Clone the repository.
-2. Run `npm install` to install dependencies.
+2. Run `npm install` and other packages to install dependencies.
 3. Set up a `.env` file with database credentials.
 4. Start the server with `node app.js`.
 

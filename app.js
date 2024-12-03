@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
+
 // Routes
 const mainRoutes = require('./routes/main'); // Home and about routes
 const searchRoutes = require('./routes/search'); // Search functionality
