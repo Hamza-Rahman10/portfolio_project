@@ -1,0 +1,87 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #69ddd9; /* Green background */
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+/* Container for the search bar and results */
+.search-container {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the form inside the container */
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Search input styling */
+.search-input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s;
+}
+
+/* Highlight border on focus */
+.search-input:focus {
+    border-color: #65cccc;
+}
+
+/* Search button styling */
+.search-button {
+    padding: 0.8rem 1.2rem;
+    background-color: #6dd1de;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+.search-button:hover {
+    background-color: #66d1d1;
+}
+
+/* Results section styling */
+.search-results {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+.result-item {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+.result-item:hover {
+    background-color: #f1f1f1;
+}
