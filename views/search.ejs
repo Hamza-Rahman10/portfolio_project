@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Courses</title>
-    <link rel="stylesheet" href="/styles/search.css"> 
+    <link rel="stylesheet" href="/styles/search.css"> <!-- css ref link styyle -->
 </head>
 <body>
     <header>
-        <h1>Search Courses</h1>
+        <h1>Search Courses</h1> <!-- Title -->
     </header>
     <main>
-        <form method="get">
+        <form method="get"> <!-- search course query -->
             <input type="text" name="q" placeholder="Search courses..." value="<%= query %>">
             <button type="submit">Search</button>
         </form>
         <ul>
-            <% courses.forEach(course => { %>
+            <% courses.forEach(course => { %> <!-- course description -->
                 <li><strong><%= course.title %></strong>: <%= course.description %></li>
             <% }); %>
         </ul>

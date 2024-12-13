@@ -11,3 +11,5 @@ const pool = mysql.createPool({
 
 module.exports = pool.promise();
 
+//all databse information for this site to be running connected to MySQL
+

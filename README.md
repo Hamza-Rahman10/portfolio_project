@@ -1,5 +1,5 @@
 # Portfolio Project
-This is educational website for assignment purposes
+This is educational website for those who want to learn online for easier access to education however the site was made for assignment purposes
 
 ## Features
 - Home page with navigation
@@ -7,18 +7,17 @@ This is educational website for assignment purposes
 - Search functionality for courses
 - User data entry form
 - MySQL database integration
+- Registration form
 
 ## Technologies
 - Node.js
 - Express.js
 - EJS
-- MySQL
+- MySQL and MySQL2
 
 ## Setup
-1. Clone the repository.
-2. Run `npm install` and other packages to install dependencies.
-3. Set up a `.env` file with database credentials.
-4. Start the server with `node app.js`.
+explore the page via link:
+http://localhost:8000
 
 ## Author
 Hamza
