@@ -17,7 +17,7 @@ This is educational website for those who want to learn online for easier access
 
 ## Setup
 explore the page via link:
-http://localhost:8000
+(https://www.doc.gold.ac.uk/usr/290/)
 
 ## Author
 Hamza
